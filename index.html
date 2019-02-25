@@ -8,5 +8,14 @@
 </head>
 <body>
     <h1>Первый пошел!!!</h1>
+    <script>
+    function farenGate(temperature) {
+        let a = (9/5)*temperature+32; 
+        return (a); 
+    }
+    temperature = Number(prompt("Введите свою температуру ", ''));
+    console.log(farenGate(temperature)); 
+    alert('Температура в Фаренгейтах ' + farenGate(temperature));
+    </script>
 </body>
 </html>
